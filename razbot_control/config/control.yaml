@@ -12,8 +12,8 @@ razbot_diff_drive_controller:
   type: "diff_drive_controller/DiffDriveController"
   publish_rate: 50
 
-  left_wheel: ['front_left_wheel', 'rear_left_wheel']
-  right_wheel: ['front_right_wheel', 'rear_right_wheel']
+  left_wheel: rear_left_wheel
+  right_wheel: rear_right_wheel
 
   # Odometry covariances for the encoder output of the robot. These values should
   # be tuned to your robot's sample odometry data, but these values are a good place

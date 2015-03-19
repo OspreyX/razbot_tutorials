@@ -5,8 +5,7 @@
   <include file="$(find razbot_control)/launch/control.launch"/>
 
   <!-- Start the Gazebo simulator, loading a world -->
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="worlds/robocup14_spl_field.world"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">   
   </include>
 
   <!-- Send the RazBot Gazebo URDF to param server -->
